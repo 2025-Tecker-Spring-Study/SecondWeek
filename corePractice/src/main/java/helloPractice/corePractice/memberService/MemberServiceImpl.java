@@ -7,6 +7,7 @@ public class MemberServiceImpl implements MemberService{
 
     // 필드로서 메모리멤버레포지토리를 주입받음
     MemberRepository memberRepository = new MemoryMemberRepository();
+    
 
 
     // 생성자 추가: MemoryMemberRepository를 매개변수로 받는 생성자 -> 테스트에서 사용하기 위함
